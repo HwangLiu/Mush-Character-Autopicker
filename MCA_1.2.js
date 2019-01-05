@@ -273,7 +273,7 @@ function getCookie(chosenHero) {
         while (c.charAt(0) == ' ') c = c.substring(1, c.length);
         if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
     }
-    return null;
+    return "Choose your Hero!";
 }
 
 //Creating a text line for a user to see which character he chose
